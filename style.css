@@ -1,0 +1,49 @@
+body {
+	font-family: Arial, sans-serif;
+    background-color: aqua;
+}
+
+#editor {
+	width: 80%;
+	height: 300px;
+	padding: 10px;
+	font-size: 18px;
+	border: 1px solid #ccc;
+}
+
+.toolbar {
+	margin-top: 10px;
+}
+
+.toolbar button {
+	margin-right: 10px;
+	padding: 5px 10px;
+	border: 2px solid;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.toolbar button:hover {
+	background-color: #837c7c;
+}
+
+#font-size {
+	width: 60px;
+	height: 30px;
+	padding: 5px;
+	margin-right: 10px;
+}
+
+#font-family {
+	width: 150px;
+	height: 30px;
+	padding: 5px;
+	margin-right: 10px;
+}
+
+#text-color {
+	width: 60px;
+	height: 30px;
+	padding: 5px;
+	margin-right: 10px;
+}
